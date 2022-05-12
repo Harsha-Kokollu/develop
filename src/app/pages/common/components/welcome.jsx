@@ -14,7 +14,7 @@ const useNavigateQueryStringParams = () => {
     navigate(path);
   };
 };
-
+// welcome
 const Welcome = (props) => {
   let _oc_common = "oc_common";
   const navigate = useNavigateQueryStringParams();
