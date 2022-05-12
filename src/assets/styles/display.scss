@@ -1,0 +1,254 @@
+.text-default {
+  @include text-default;
+}
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+.text-lowecase {
+  text-transform: lowercase !important;
+}
+.text-capitalize {
+  text-transform: capitalize !important;
+}
+.text-underline {
+  text-decoration: underline !important;
+}
+.text-decoration-none {
+  text-decoration: none !important;
+}
+.list-style-none {
+  list-style: none !important;
+}
+.text-bold {
+  font-weight: bold !important;
+}
+.text-fw-regular {
+  font-weight: $font-weight-regular !important;
+}
+
+.text-ff-bold {
+  font-family: $font-bold;
+}
+.text-ff-semibold {
+  font-family: $font-semibold !important;
+}
+.text-ff-light {
+  font-family: $font-light !important;
+}
+
+.text-fs-tiny {
+  font-size: $font-size-tiny !important;
+}
+.text-fs-small {
+  font-size: $font-size-small !important;
+}
+.text-fs-small-plus {
+  font-size: $font-size-small-plus !important;
+}
+.text-fs-regular {
+  font-size: $font-size-regular !important;
+}
+.text-fs-medium {
+  font-size: $font-size-medium !important;
+}
+.text-fs-medium-plus {
+  font-size: $font-size-medium-plus !important;
+}
+.text-fs-large {
+  font-size: $font-size-large !important;
+}
+.text-fs-large-x {
+  font-size: $font-size-large-x !important;
+}
+.text-fs-large-xx {
+  font-size: $font-size-large-xx !important;
+}
+.text-fs-large-xxx {
+  font-size: $font-size-large-xxx !important;
+}
+.text-align-left {
+  text-align: left !important;
+}
+.text-align-right {
+  text-align: right !important;
+}
+.text-align-center {
+  text-align: center !important;
+}
+.text-fc-white {
+  color: $color-white !important;
+}
+.text-fc-error {
+  color: $color-error-darker !important;
+}
+.text-fc-grey {
+  color: $color-grey !important;
+}
+.text-fc-black-alt {
+  color: $color-black-alt !important;
+}
+
+.text-fc-black {
+  color: $color-black !important;
+}
+
+.text-fc-grey-dark {
+  color: $color-black-alt !important;
+  opacity: 0.9 !important;
+}
+.text-fc-info-dark {
+  color: $color-neutral-dark !important;
+  opacity: 0.7 !important;
+}
+.text-fw-regular {
+  font-weight: $font-weight-regular !important;
+}
+.text-fw-semibold {
+  font-weight: $font-weight-semibold !important;
+}
+.text-fc-secondary {
+  color: $color-theme-secondary;
+}
+.text-fst-italic {
+  font-style: italic !important;
+}
+.text-indent{
+  &::first-line{
+padding-left: 20px;
+text-indent: 0px;
+  }
+}
+
+.text-truncated {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 1;
+  white-space: initial;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.text-fc-dark {
+  color: $color-theme-dark !important;
+}
+.text-fc-black {
+  color: $color-black-dark !important;
+}
+.text-fc-sp-blue {
+  color: $color-sippio-blue !important;
+}
+.text-fc-regular {
+  color: $color-regular !important;
+}
+.text-fc-primary {
+  color: $color-theme-primary !important;
+}
+.text-fc-darker {
+  color: $color-theme-darker !important;
+}
+.text-info-note {
+  color: $color-grey-medium !important;
+  font-size: $font-size-small !important;
+}
+.text-no-data {
+  color: $color-grey-medium !important;
+}
+.text-lh-regular {
+  line-height: 1.4 !important;
+}
+.text-lh-small {
+  line-height: 1 !important;
+}
+.text-align-center {
+  text-align: center;
+}
+
+.vertical-align-middle {
+  vertical-align: middle !important;
+}
+
+.bg-white {
+  background-color: $color-white !important;
+}
+.bg-grey {
+  background-color: $color-grey-alt;
+}
+
+.border-w-1 {
+  border-width: 1px !important;
+  border-style: solid !important;
+}
+.border-c-white {
+  border-color: $color-white !important;
+}
+.border-c-transparent {
+  border-color: transparent !important;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.float-left {
+  float: left !important;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+$max: 500;
+$offset: 5;
+$unit: "px";
+@mixin list-loop($className, $styleName) {
+  $i: 0;
+  @while $i <= $max {
+    #{$className + $i} {
+      #{$styleName}: #{$i + $unit} !important;
+    }
+    $i: $i + $offset;
+  }
+}
+
+// Margins
+@include list-loop(".m-t-", "margin-top");
+@include list-loop(".m-r-", "margin-right");
+@include list-loop(".m-b-", "margin-bottom");
+@include list-loop(".m-l-", "margin-left");
+@include list-loop(".m-", "margin");
+// Paddings
+@include list-loop(".p-t-", "padding-top");
+@include list-loop(".p-r-", "padding-right");
+@include list-loop(".p-b-", "padding-bottom");
+@include list-loop(".p-l-", "padding-left");
+@include list-loop(".p-", "padding");
+// height
+@include list-loop(".h-", "height");
+// width
+@include list-loop(".w-", "width");
+//line height
+@include list-loop(".lh-", "line-height");
+
+@include list-loop(".max-w-", "max-width");
+@include list-loop(".min-w-", "min-width");
+
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin justify-content($justify) {
+  -webkit-justify-content: $justify;
+  -moz-justify-content: $justify;
+  -ms-justify-content: $justify;
+  justify-content: $justify;
+  -ms-flex-pack: $justify;
+}
+
+@mixin flexCenter {
+  display: flex;
+  // align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,697 @@
+#oc-layout-wrapper {
+  #oc-page-container {
+
+    .quote-page-frame-icon {
+      margin-top: -2px;
+      margin-bottom: -7px;
+      margin-top: -7px !important;
+      margin-bottom: -7px !important;
+      margin-left: -5px !important;
+
+      div {
+        padding-right: 10px !important;
+        //height: auto !important;
+      }
+    }
+
+    .quote-link-text {
+      //color: $color-theme-dark;
+
+    }
+
+    .oc-order-create-page-button {
+      min-width: 120px !important;
+      text-align: left !important;
+
+
+      span {
+        display: flex !important;
+        justify-content: unset !important;
+
+
+      }
+    }
+
+    .term-text-wrapper {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .quote-attachment-wrapper {
+      display: flex;
+
+      // align-items: center;
+      @media screen and (max-width: 375px) {
+        margin-top: 20px;
+      }
+
+      .quote-btn-wrapper {
+        input {
+          display: none;
+        }
+      }
+
+    }
+
+    .quote-order-link {
+      &:hover {
+        color: $color-theme-dark;
+        cursor: pointer;
+      }
+
+      span {
+        &:hover {
+          text-decoration: underline;
+
+        }
+      }
+    }
+
+    .quote-estimator-row-separator {
+      height: 1px !important;
+      background-color: $color-grey-medium-alt;
+
+    }
+
+    .order-payment-stats-tabs {
+      button {
+        font-size: $font-size-regular !important;
+        color: $color-regular !important;
+        margin-left: -2px !important;
+      }
+
+      .is-selected {
+        font-family: $font-bold !important;
+        //background-color: $color-grey-alt;
+      }
+    }
+
+    .frame-content-quotes {
+      .quote-page-choice-group {
+        margin-right: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        //  :nth-child(1){
+        //    width: 70%;
+        //  }
+        //  :nth-child(2){
+        //   width: 60%;
+        // }
+        // :nth-child(3){
+        //   width: 10%;
+        // }
+
+
+        @media (min-width:768px) {
+          margin-right: 10px;
+        }
+      }
+
+      .quote-page-text-wrapper {
+        display: flex;
+        padding-right: 10px;
+      }
+
+      .quote-account-form-tooltip {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .quote-page-icon-button {
+        min-width: 24px;
+
+      }
+
+      .oc-quote-page-footer-actions {
+        margin-left: 8px;
+        margin-right: 15px;
+        margin-top: 10px;
+      }
+
+      .quote-form-default-button {
+        margin-top: 29.5px;
+        padding: 9px;
+
+        //border: 1px solid $color-theme-primary;
+        //border-radius: 20px;
+        label {
+          // font-weight: $font-size-regular;
+        }
+
+        i {
+          //color: $color-theme-primary;
+          //font-weight: $font-weight-bold !important;
+        }
+      }
+    }
+
+    .quote-estimator-page-content {
+      padding-top: 5px !important;
+      padding-right: 10px !important;
+      padding-left: 8px !important;
+      padding-bottom: 0px !important;
+      margin-top: 5px !important;
+      margin-bottom: 5px !important;
+      position: relative !important;
+      min-height: 150px !important;
+
+      //height: calc(45vh - 60px);
+      .page-frame-table-header-sticky {
+        position: sticky;
+
+      }
+
+      .quote-estimator-icon-button {
+
+        // margin-top: -7px;
+        // margin-bottom: -7px;
+        //margin-left:2px;
+        i {
+          padding-top: 2px;
+          color: $color-theme-secondary;
+        }
+      }
+
+      .quote-page-table-wrapper {
+        //min-height: 348.5px !important;
+        margin-top: 25px;
+        padding: 0px !important;
+        position: relative !important;
+        background-color: $color-white !important;
+
+        .quote-page-table-footer-text {
+          padding-top: 10px;
+          margin-bottom: 30px;
+
+          span {
+            font-style: italic;
+            float: right;
+            font-size: $font-size-small;
+          }
+
+          //float: right;
+        }
+
+        .page-frame-table {
+          //display: none;
+          position: relative !important;
+          padding-top: 0px !important;
+          padding-left: 0px !important;
+          padding-right: 0px !important;
+          overflow: auto;
+          width: 100%;
+
+
+          .page-frame-table-footer {
+            position: relative;
+            padding: 0px !important;
+            //border-top: 1px solid $color-grey-medium-alt;
+
+
+
+            .page-frame-table-footer-row {
+              //margin-top: 10px;
+              margin-left: 0px;
+              border-top: 1px solid $color-grey-medium-alt;
+
+              .ms-DetailsRow-fields {
+                background-color: $color-grey-alt;
+              }
+
+              //margin-bottom: 5px;
+
+            }
+          }
+
+          div[role="presentation"] {
+
+            div[role="row"] {
+              padding: 0px !important;
+              border-bottom: 1px solid $color-grey-medium-alt;
+
+            }
+
+            .ms-SelectionZone {
+              min-height: 50px !important;
+            }
+          }
+        }
+
+        .quote-table-wrapper {
+          .quote-description-text {
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            white-space: initial;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+
+          min-height: 260px !important;
+          min-width: 250px !important;
+          max-width: 100% !important;
+          background-color: $color-white !important;
+          margin-top: 0px !important;
+
+        }
+      }
+    }
+
+    .frame-content-progress-steps {
+      position: relative;
+      left: 17%;
+
+      @media (max-width:426px) {
+        position: relative;
+        left: 0%;
+
+      }
+
+      z-index: 1;
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+      padding: 5px 20px 0px 0px;
+      text-align: left;
+
+      ul {
+        display: block;
+      }
+
+      .quote-progress {
+        overflow: hidden;
+        counter-reset: step;
+        margin: 15px 0px;
+        padding: 0;
+      }
+
+      .quote-progress li.steps {
+        position: relative;
+        list-style: none;
+        float: left;
+        width: 16%;
+
+        @media (max-width:426px) {
+          width: 25%;
+        }
+
+        text-align: center;
+      }
+
+      .quote-progress li.steps span.title {
+        display: inline;
+        padding-left: 8px;
+        font-size: $font-size-regular;
+        font-family: $font-semibold;
+        color: $color-black-alt;
+      }
+
+      .quote-progress li.completed:before,
+      .quote-progress li.steps:before {
+        content: counter(step);
+        counter-increment: step;
+        width: 30px;
+        height: 30px;
+        display: block;
+        text-align: center;
+        margin: 0 auto 10px auto;
+        border-radius: 50%;
+        background-color: $color-grey-light;
+        color: $color-white;
+        /* Center # in circle */
+        line-height: 30px;
+      }
+
+      .quote-progress li.steps:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background: $color-grey-light;
+        background-size: 5px;
+        top: 15px;
+        /*half of height Parent (li) */
+        left: -50%;
+        z-index: -1;
+      }
+
+      .quote-progress li.steps:first-child:after {
+        content: none;
+      }
+
+      .quote-progress .steps span.title.active,
+      .quote-progress .steps span.title.completed {
+        color: $color-theme-secondary;
+      }
+
+      .quote-progress .steps.active:before {
+        background: $color-theme-secondary !important;
+        color: $color-white;
+      }
+
+      .quote-progress .steps.active:after {
+        background: $color-theme-secondary !important;
+        color: $color-white;
+      }
+
+      .quote-progress .steps.completed:after,
+      .quote-progress .steps.completed:before {
+        background: $color-theme-secondary !important;
+        color: $color-white;
+      }
+
+      @media (max-width: 425px) {
+        .progressbar .steps span.title {
+          visibility: hidden !important;
+        }
+
+        .progressbar .steps span.title.active {
+          visibility: visible !important;
+          padding-left: 0px !important;
+          padding-top: 5px !important;
+        }
+
+        // .progressbar li.steps:before {
+        //   margin: 0;
+        // }
+      }
+
+      @media (max-width: 768px) {
+        .progressbar .steps span.title {
+          display: block;
+          padding-top: 5px !important;
+          padding-left: 0px !important;
+        }
+      }
+    }
+  }
+}
+
+.quote-customize-modal-content {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: "stretch";
+  height: 100% !important;
+  z-index: 0;
+
+  .ms-Dialog-main {
+    .quote-create-list-wrapper {
+      list-style: none;
+      margin-right: 5px;
+
+      li {
+        padding: 5px;
+
+        svg {
+          margin-top: 1px;
+          height: 10px !important;
+        }
+      }
+
+      margin-left: 0px;
+    }
+
+    .quote-modal-link-text {
+      display: flex !important;
+      flex-direction: row !important;
+
+      span {
+        margin-left: 5px !important;
+        color: $color-theme-darker !important;
+      }
+
+      span:hover {
+        text-decoration: underline !important;
+        cursor: pointer !important;
+      }
+    }
+
+    .quote-estimator-page-content {
+      padding-top: 5px !important;
+      padding-bottom: 0px !important;
+      margin-top: 5px !important;
+      margin-bottom: 5px !important;
+      position: relative !important;
+      min-height: 150px !important;
+
+      //height: calc(45vh - 60px);
+      .page-frame-table-header-sticky {
+        position: sticky;
+        z-index: 1000;
+
+      }
+
+      .quote-estimator-icon-button {
+
+        // margin-top: -7px;
+        // margin-bottom: -7px;
+        //margin-left:2px;
+        i {
+          padding-top: 2px;
+          color: $color-theme-secondary;
+        }
+      }
+
+      .quote-page-table-wrapper {
+        //min-height: 348.5px !important;
+        margin-top: 25px;
+        padding: 0px !important;
+        position: relative !important;
+        background-color: $color-white !important;
+
+        .quote-page-table-footer-text {
+          padding-top: 10px;
+          margin-bottom: 30px;
+
+          span {
+            font-style: italic;
+            float: right;
+            font-size: $font-size-small;
+
+          }
+
+          //float: right;
+        }
+
+        .page-frame-table {
+          position: relative !important;
+          padding-top: 0px !important;
+          padding-left: 0px !important;
+          padding-right: 0px !important;
+          border: 1px solid $color-grey-medium-alt;
+          overflow: auto;
+          width: 100%;
+
+          .page-frame-table-footer {
+            position: relative;
+            padding: 0px !important;
+            //border-top: 1px solid $color-grey-medium-alt;
+
+
+
+            .page-frame-table-footer-row {
+              //margin-top: 10px;
+              margin-left: 0px;
+              border-top: 1px solid $color-grey-medium-alt;
+
+              .ms-DetailsRow-fields {
+                background-color: $color-grey-alt;
+              }
+
+              //margin-bottom: 5px;
+
+            }
+          }
+
+          div[role="presentation"] {
+
+            div[role="row"] {
+              padding: 0px !important;
+              border-bottom: 1px solid $color-grey-medium-alt;
+
+
+            }
+
+            .ms-SelectionZone {
+              min-height: 50px !important;
+
+            }
+          }
+        }
+
+        .quote-table-wrapper {
+          .quote-description-text {
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            white-space: initial;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+
+          min-height: 260px !important;
+          min-width: 250px !important;
+          max-width: 100% !important;
+          background-color: $color-white !important;
+          margin-top: 0px !important;
+
+        }
+      }
+    }
+
+
+    .modal-header-frame-separator {
+      height: 2px;
+      background-color: #f5f5f5;
+      border-left: 1px solid $color-neutral-light;
+      border-right: 1px solid $color-neutral-light;
+    }
+
+    .quote-view-modal-text-wrapper {
+      margin-top: 20px !important;
+      word-wrap: break-word !important;
+      line-break: strict !important;
+    }
+
+    @media screen and (max-width: 1199px) {
+      .modal-mobile-text-field {
+        height: 90px;
+      }
+    }
+
+    .modal-button-primary {
+      color: $color-white !important;
+    }
+
+    .modal-button-command-bar {
+      // border-color: $color-neutral-dark-alt !important;
+      // background: none !important;
+      margin-top: 29.5px !important;
+      color: $color-black-alt;
+
+      span {
+        font-weight: 400 !important;
+      }
+    }
+
+    .modal-form-dropdown {
+      @include form-dropdown-default;
+
+      label {
+        font-weight: 400 !important;
+        //font-family: $font-semibold !important;
+      }
+
+      div[role="listbox"] {
+        span {
+          border-color: $color-neutral-dark-alt !important;
+        }
+      }
+
+      div[role="alert"] {
+        color: $color-error-darker !important;
+        animation-name: css-1, css-14 !important;
+        animation-duration: 0.367s !important;
+        animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1) !important;
+      }
+    }
+  }
+
+  .oc-quote-page-footer-actions {
+    width: 100%;
+
+    .modal-page-frame-separator {
+      height: 1px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: -20px;
+      margin-right: -20px;
+      background-color: $color-grey-medium-alt;
+    }
+
+    background-color: $color-white;
+    z-index:1000;
+
+    .oc-quote-page-footer-button {
+      margin-left: 5px;
+      margin-right: 15px;
+      border-radius: 4px;
+      margin-top: 10px // @media (max-width:768px) {
+      //   margin-top: 10px;
+
+      // }
+    }
+  }
+
+  .modal-form-textfield {
+    @include form-textfield-default;
+    width: 100%;
+
+    div {
+      label {
+        font-weight: 400 !important;
+        //font-family: $font-semibold !important;
+      }
+
+      div {
+        border-color: $color-neutral-dark-alt !important;
+      }
+    }
+
+    span {
+      div[role="alert"] {
+        p {
+          color: $color-error-darker !important;
+        }
+      }
+    }
+  }
+}
+
+.quote-link-text {
+  color: $color-black-alt;
+
+  span {
+    cursor: pointer;
+
+    &:hover {
+      color: $color-theme-dark;
+      text-decoration: underline;
+    }
+  }
+}
+
+.quote-dialog-wrapper {
+  .ms-Dialog-title {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    margin-bottom: 10px !important;
+    font-size: $font-size-medium-plus !important;
+    background-color: $color-grey-alt !important;
+  }
+
+  .ms-Dialog-inner {
+    div.ms-Dialog-content {
+      p.ms-Dialog-subText {
+        font-size: $font-size-small-plus !important;
+
+        span {
+          display: inline-block;
+          padding-top: 10px;
+          font-size: $font-size-small-plus;
+        }
+      }
+    }
+  }
+}
+
+.quote-overflow-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  white-space: initial;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

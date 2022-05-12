@@ -1,0 +1,11 @@
+export const APP_NAME="APP_NAME";
+
+//Quotes
+
+export const QUOTE_ESTIMATOR = "QUOTE_ESTIMATOR";
+export const QUOTE_PROGRESS_PAGE = "QUOTE_PROGRESS_PAGE";
+export const PRODUCT_LIST="PRODUCT_LIST";
+
+//General
+
+export const COUNTRY_STATES_DATA="COUNTRY_STATES_DATA"

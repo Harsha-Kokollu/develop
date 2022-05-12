@@ -1,0 +1,24 @@
+{
+    "title": {
+      "pageNotFound": "Page Not Found",
+      "clientError": "Client Error",
+      "serverError": "Server Error"
+    },
+    "content": {
+      "pageNotFound": "Page Not Found",
+      "errorTitle": "Error",
+      "pageText": "The page you are looking for does not exist.",
+      "homePageButtonText": "Go to Home Page",
+      "userName": "User Name",
+      "accountNumber": "Account Number",
+      "pageURL": "Page URL",
+      "apiEndPoint": "API Endpoint",
+      "apiStatusCode": "API Status Code",
+      "apiMethod": "API Method",
+      "errorMessage": "Error Message",
+      "sessionId": "AISID",
+      "userId": "AIUID",
+      "serverErrorText":"An error has occurred."
+    }
+  }
+  

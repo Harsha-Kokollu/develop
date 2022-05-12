@@ -1,0 +1,24 @@
+{
+    "title": {
+      "pageNotFound": "Página no encontrada",
+      "clientError": "error del cliente",
+      "serverError": "Error del Servidor"
+    },
+    "content": {
+      "pageNotFound": "Página no encontrada",
+      "errorTitle": "Error",
+      "pageText": "La página que buscas no existe.",
+      "homePageButtonText": "Ir a la página de inicio",
+      "userName": "User Name",
+      "accountNumber": "Account Number",
+      "pageURL": "Page URL",
+      "apiEndPoint": "API Endpoint",
+      "apiStatusCode": "API Status Code",
+      "apiMethod": "API Method",
+      "errorMessage": "Error Message",
+      "sessionId": "AISID",
+      "userId": "AIUID",
+      "serverErrorText":"Se ha producido un error."
+    }
+  }
+  

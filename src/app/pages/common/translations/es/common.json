@@ -1,0 +1,25 @@
+{
+  "title": {
+    "appName": "Conexión del operador"
+  },
+  "languageCode": {
+    "en": "English",
+    "es": "Español"
+  },
+  "content": {
+    "loadingInprogress": "Cargando...",
+    "languagePlaceholder": "seleccione el idioma",
+    "welcomeText": "Bienvenido a Operador Connect",
+    "Retrieve": "Recuperar Cotización / Pedido",
+    "referenceNumber": "Número de referencia / Correo electrónico",
+    "search": "Búsqueda",
+        "footer":{
+      "copyRight":"© 2022 Lumen Technologies. Reservados todos los derechos."
+    }
+  },
+  "notification": {
+    "warning": {
+      "requestCancelled": "solicitud cancelada."
+    }
+  }
+}

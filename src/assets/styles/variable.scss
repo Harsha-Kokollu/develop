@@ -1,0 +1,124 @@
+// Fonts
+$font-regular: "Segoe UI", sans-serif;
+$font-regular-italic: "Segoe UI Italic", sans-serif;
+$font-light: "Segoe UI Light", sans-serif;
+$font-light-italic: "Segoe UI Light Italic", sans-serif;
+$font-semilight: "Segoe UI Semilight", sans-serif;
+$font-semilight-italic: "Segoe UI Semilight Italic", sans-serif;
+$font-semibold: "Segoe UI Semibold", sans-serif;
+$font-semibold-italic: "Segoe UI Semibold Italic", sans-serif;
+$font-bold: "Segoe UI Bold", sans-serif;
+$font-bold-italic: "Segoe UI Bold Italic", sans-serif;
+//$font-black: 'Segoe UI Black', sans-serif;
+//$font-black-italic: 'Segoe UI Black Italic', sans-serif;
+
+// Fonr Sizes
+$font-size-tiny: 10px;
+$font-size-small: 12px;
+$font-size-small-plus: 13px;
+$font-size-regular: 14px;
+$font-size-medium: 14px;
+$font-size-medium-plus: 16px;
+$font-size-large: 18px;
+$font-size-large-x: 20px;
+$font-size-large-xx: 24px;
+$font-size-large-xxx: 32px;
+$font-size-mega: 68px;
+$font-size-menu-level1: 14px;
+$font-size-menu-level2: 14px;
+
+// Colors
+$color-black: #0b0b0b;
+$color-black-alt: #231f20;
+$color-black-dark:#000000;
+$color-grey: #808080;
+$color-grey-medium-alt: #e2e2e2;
+$color-grey-medium: #a0a0a0;
+$color-grey-light: #d0d0d0;
+$color-grey-light-alt: #e7e6e6;
+$color-brown-dark: #70707054;
+$color-grey-alt: #f5f5f5;
+$color-white: #ffffff;
+$color-blue: #a8abe342;
+$color-regular: #333333;
+$color-info-darker: #605e5c;
+$color-info-lighter: #f3f2f1;
+$color-warning-darker: #797673;
+$color-warning-lighter: #fff4ce;
+$color-warning-dark-alt: #ff8c00;
+$color-warning-lighter-alt: #ffbb00;
+$color-severe-darker: #d83b01;
+$color-severe-lighter: #fed9cc;
+$color-error-darker: #a80000;
+$color-error-dark-alt:#ff3d00;
+$color-error-lighter: #fde7e9;
+$color-success-darker: #107c10;
+$color-success-dark-alt: #4fad4e;
+$color-success-lighter: #dff6dd;
+
+$color-theme-darker: #00517c;
+$color-theme-dark: #005999;
+$color-theme-dark-alt: #0082c8;
+$color-theme-primary: #0075c9;
+$color-theme-secondary: #E77528;
+$color-theme-tertiary: #5ebaeb;
+$color-theme-light: #acdbf5;
+$color-theme-light-alt:#f9f9fa;
+$color-theme-lighter: #d2ecfa;
+$color-theme-lighter-alt: #f4fafe;
+$color-neutral-dark: #151515;
+$color-neutral-dark-alt: #999999;
+$color-neutral-primary: #000000;
+$color-neutral-primary-alt: #2f2f2f;
+$color-neutral-secondary: #373737;
+$color-neutral-tertiary: #595959;
+$color-neutral-tertiary-alt: #c8c8c8;
+$color-neutral-quaternary: #d0d0d0;
+$color-neutral-quaternary-alt: #dadada;
+$color-neutral-light: #eaeaea;
+$color-neutral-lighter: #f4f4f4;
+$color-neutral-lighter-alt: #f8f8f8;
+
+$color-sippio-purple: #666699;
+$color-sippio-blue: #0099cc;
+$color-sippio-purple-alt: #5c6bc0;
+$color-sippio-green: #cccc33;
+$color-sippio-lavender: #9999cc;
+$color-teams-purple: #c4c6f042;
+$color-teams-purple-alt: #c4c6f0;
+
+$color-menu-level1-fg-default: $color-black-alt;
+$color-menu-level1-fg-selected: $color-theme-primary;
+$color-menu-level1-fg-hover: $color-black-alt;
+
+$color-menu-level2-fg-default: $color-black-alt;
+$color-menu-level2-fg-selected: $color-theme-primary;
+$color-menu-level2-fg-hover: $color-black-alt;
+
+$color-menu-level1-bg-hover: $color-grey-alt;
+$color-menu-level1-bg-selected: $color-grey-alt;
+$color-menu-level1-bg-default: $color-grey-alt;
+
+$color-menu-level2-bg-hover: $color-grey-alt;
+$color-menu-level2-bg-selected: $color-grey-alt;
+$color-menu-level2-bg-default: $color-grey-alt;
+
+// Z-index
+$z-index-page-loader: 1000;
+$z-index-wait-dialog: 1000;
+$z-index-menubar-logo: 950;
+$z-index-menubar-menu: 900;
+$z-index-home-card-title: 800;
+$z-index-home-card-content: 500;
+$z-index-main-header: 800;
+$z-index-page-title: 700;
+$z-index-page-separator: 600;
+$z-index-page-content: 500;
+
+// Widths & Margins
+$width-menubar: 200px;
+$margin-left-content: 200px;
+
+//Font weights
+$font-weight-regular: 400;
+$font-weight-semibold:600

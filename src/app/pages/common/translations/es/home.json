@@ -1,0 +1,12 @@
+{
+  "title": {
+    "home": "Casa"
+  },
+  "content": {
+    "ProductsAndServices": "Productos / Servicios",
+    "ProductsDescription": "Activa y despliega servicios de numeración geográfica (DID) en forma rápida y efectiva, incluyendo opciones de consumo de llamadas.",
+    "moreInfo": "Más información...",
+    "createQuote": "Crear cotización",
+    "support":"Contacto para precios"
+  }
+}

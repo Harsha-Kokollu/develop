@@ -1,0 +1,41 @@
+#error-page {
+  // height: 60vh !important;
+  background-color: $color-white;
+
+  .error-page-header {
+    padding: 12px 20px 12px 20px;
+    border-bottom: 2px solid $color-neutral-light;
+    background-color: $color-white;
+    /*
+        position: fixed !important;
+        top: 0;
+        right: 0;
+        left: 0;
+        */
+  }
+
+  .error-page-content {
+    min-height:calc(100vh - 255px);
+    .error-page-segment {
+      background-color: $color-neutral-lighter-alt;
+      padding: 20px 50px 0px 50px !important;
+    }
+    .error-page-title {
+      font-family: $font-semibold;
+      color: $color-error-darker;
+      font-size: $font-size-medium-plus;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .error-page-text {
+      font-size: $font-size-regular;
+      color: $color-regular;
+    }
+    .error-page-button {
+      @include button-default;
+      width: 170px !important;
+      margin-right: 20px !important;
+      margin-bottom: 20px !important;
+    }
+  }
+}

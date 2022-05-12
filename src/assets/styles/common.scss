@@ -1,0 +1,90 @@
+
+html {
+    height: 100% !important;
+  }
+  body {
+      margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  // height: 100% !important;
+  // width: 100% !important;
+  // min-height: 100vh !important;
+  overflow: auto;
+  font-family: "Segoe UI", "Open Sans", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  background-color: $color-white !important;
+  color: #000000;
+  line-height: 1.4286 !important;
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  list-style-type: none;
+  }
+  
+  @mixin button-primary {
+    font-family: $font-regular !important;
+    font-size: $font-size-regular !important;
+    //background-color: $color-theme-primary !important;
+    //&:hover {
+    //  background-color: $color-theme-dark-alt !important;
+    //}
+  }
+  
+  @mixin button-default {
+    //font-family: $font-regular !important;
+    font-size: $font-size-regular !important;
+    border-radius: 4px !important;
+    font-weight: $font-weight-semibold !important;
+    //background-color: $color-white !important;
+    //&:hover {
+    //  background-color: $color-neutral-lighter !important;
+    //}
+  }
+  @mixin button-command-bar {
+    font-family: $font-semibold !important;
+    font-size: $font-size-regular !important;
+  }
+
+  @mixin button-primary {
+    font-family: $font-semibold !important;
+    font-size: $font-size-regular !important;
+    border-radius: 15px !important;
+  }
+  
+  @mixin form-textfield-default {
+    font-family: $font-regular !important;
+    font-size: $font-size-regular !important;
+  }
+  @mixin form-dropdown-default {
+    font-family: $font-regular !important;
+    font-size: $font-size-regular !important;
+  }
+  @mixin form-checkbox-default {
+    font-family: $font-regular !important;
+    font-size: $font-size-regular !important;
+  }
+  @mixin text-default {
+    font-family: $font-regular !important;
+    font-size: $font-size-regular !important;
+  }
+  
+  a {
+    color: $color-theme-primary !important;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  
+  a:hover {
+    color: $color-theme-dark !important;
+  }
+  
+  a:not([href]) {
+    color: $color-theme-darker !important;
+    text-decoration: none;
+  }
+  
+  a:not([href]):hover {
+    color: inherit;
+    text-decoration: none;
+  }
+  

@@ -1,0 +1,15 @@
+{
+  "title": {
+    "productDetails": "Product Details"
+  },
+  "content": {
+    "price": "Price",
+    "description": "Description",
+    "marketingDescription": "Marketing Description",
+    "availableCountries": "Available Countries",
+    "createQuote": "Create Quote",
+    "resources": "Resources",
+    "usefulLinks": "Useful Links",
+    "support": "Contant for Pricing"
+  }
+}

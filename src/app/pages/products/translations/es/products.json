@@ -1,0 +1,16 @@
+{
+  "title": {
+    "productDetails": "Detalles de producto"
+  },
+  "content": {
+    "price": "Precio",
+    "description": "Descripción",
+    "marketingDescription": "Descripción de mercadeo",
+    "availableCountries": "Países disponibles",
+    "createQuote": "Crear cotización",
+    "resources": "Recursos",
+    "usefulLinks": "Enlaces útiles",
+    "support":"Contenido para precios"
+
+  }
+}

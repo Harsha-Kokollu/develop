@@ -1,0 +1,27 @@
+{
+  "title": {
+    "appName": "Operator Connect"
+  },
+  "languageCode": {
+    "en": "English",
+    "es": "Español"
+  },
+  "content": {
+    "loadingInprogress": "Loading...",
+    "languagePlaceholder": "Select Language",
+    "welcomeText": "Welcome to Operator Connect",
+    "Retrieve": "Retrieve Quote / Order",
+    "referenceNumber": "Reference Number / Email",
+    "search": "Search",
+    "yes":"Yes",
+    "no":"No",
+        "footer":{
+      "copyRight":"© 2022 Lumen Technologies. All Rights Reserved."
+    }
+  }
+  ,"notification": {
+    "warning": {
+      "requestCancelled": "Request Cancelled."
+    }
+  }
+}
